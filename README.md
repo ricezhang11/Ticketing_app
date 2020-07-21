@@ -3,4 +3,10 @@ This Event-ticketing application is designed based on asynchronous event-based m
 purchase listed tickets, lock/unlock tickets during purchasing process and edit ticket prices etc. 
 
 Backend structure Overview 
+
 ![](images/test.jpg)
+
+Ticket service back-end server setup 
+
+![](images/all-Ticket (1).jpg)
+
