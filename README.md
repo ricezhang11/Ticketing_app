@@ -6,7 +6,6 @@ Backend structure Overview
 
 ![](images/test.jpg)
 
-Ticket service back-end server setup 
 
 ![](images/ticket_service.png)
 
