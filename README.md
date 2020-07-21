@@ -8,5 +8,5 @@ Backend structure Overview
 
 Ticket service back-end server setup 
 
-![](images/ticket_service.jpg)
+![](images/ticket_service.png)
 
