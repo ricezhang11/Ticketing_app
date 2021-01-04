@@ -30,6 +30,6 @@ export const currentUser = (
     ) as UserPayload;
     req.currentUser = payload;
   } catch (err) {}
-
+// pass on the error to the next middleware, which is the error-handler
   next();
 };

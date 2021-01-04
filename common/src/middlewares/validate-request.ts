@@ -12,6 +12,6 @@ export const validateRequest = (
   if (!errors.isEmpty()) {
     throw new RequestValidationError(errors.array());
   }
-
+// need to explicitely cal next since not async
   next();
 };

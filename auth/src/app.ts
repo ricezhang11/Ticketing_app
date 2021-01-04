@@ -23,11 +23,12 @@ app.use(currentUserRouter);
 app.use(signinRouter);
 app.use(signoutRouter);
 app.use(signupRouter);
-
+// catch all routes (all invalid) and throw this error
 app.all('*', async (req, res) => {
   throw new NotFoundError();
 });
-
+// https://expressjs.com/en/guide/error-handling.html
+// put the error Handler at last so that it will catch all errors before
 app.use(errorHandler);
 
 export { app };
